@@ -8,7 +8,7 @@ import { devSkills } from '../../../constantse/skills'
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { WorkInfo } from "../../../constantse/workInfo";
-import WorkInfoChips from "./workInfoChips";
+
 
 const AboutMe = () => {
 
@@ -116,10 +116,7 @@ const AboutMe = () => {
                                         xl={3}
                                         sx={{ color: "black", alignContent: "start", mt: 7 }}>
 
-
-                                        <WorkInfoChips />
-
-                                        {/* {
+                                        {
                                             WorkInfo.map((item, index) => (
 
                                                 <Box key={index} component="div" sx={{ width: 1, mb: 1 }}>
@@ -135,7 +132,7 @@ const AboutMe = () => {
                                                 </Box>
 
                                             ))
-                                        } */}
+                                        }
                                     </Grid2>
 
                                 </Grid2>
