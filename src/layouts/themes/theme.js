@@ -36,6 +36,13 @@ export const darktheme = createTheme({
                 }
             }
         },
+        MuiCard: {
+            styleOverrides: {
+                root: {
+                    borderRadius: 0
+                }
+            }
+        }
     },
 });
 
@@ -71,5 +78,12 @@ export const lighttheme = createTheme({
                 }
             }
         },
+        MuiCard: {
+            styleOverrides: {
+                root: {
+                    borderRadius: 0
+                }
+            }
+        }
     },
 });

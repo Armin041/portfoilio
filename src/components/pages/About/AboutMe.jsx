@@ -1,4 +1,4 @@
-import { CodeRounded, Coffee, CoffeeRounded, EngineeringRounded, KeyboardArrowLeftRounded } from "@mui/icons-material";
+import { CodeRounded, EngineeringRounded, KeyboardArrowLeftRounded } from "@mui/icons-material";
 import { Avatar, Box, Card, CardContent, Chip, Divider, Tooltip, Typography, useTheme } from "@mui/material";
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 import photo from '../../../asset/Just a 3D illustration of Khaby Lame by Gabriel Soares - Random.png'

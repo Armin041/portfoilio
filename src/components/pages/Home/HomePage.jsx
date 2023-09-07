@@ -72,7 +72,7 @@ const HomePage = () => {
 
             }}>
 
-                <CardContent>
+                <CardContent sx={{ borderRadius: 0 }}>
                     <Grid2 container>
                         <Grid2
                             xs={12}
